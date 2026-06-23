@@ -91,4 +91,4 @@ def getkey(path):
 def main():
     checked = []
 
-    for platform, path in PATHS
+    for platform, path in PATHS.items():
