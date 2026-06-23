@@ -88,13 +88,6 @@ def getkey(path):
 
     return key
 
-def getip():
-    try:
-        with urllib.request.urlopen("https://api.ipify.org/?format=json") as response:
-            return json.loads(response.read().decode()).get("ip")
-    except:
-        return "None"
-
 def main():
     checked = []
 
